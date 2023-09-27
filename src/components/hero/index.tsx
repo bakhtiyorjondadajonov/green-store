@@ -43,9 +43,7 @@ const slideProps: SlideProps[] = [
 ];
 
 const Hero: FC = () => {
-  const onChange = (currentSlide: number): void => {
-    console.log(currentSlide);
-  };
+  const onChange = (currentSlide: number): void => {};
   return (
     <Carousel
       autoplay
