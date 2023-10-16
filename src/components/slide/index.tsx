@@ -2,7 +2,7 @@ import type { FC } from "react";
 import "./style.css";
 import type { SlideProps } from "../../@types/slide";
 
-const Slide: FC<SlideProps> = (props: SlideProps) => {
+const Slide: FC<SlideProps> = (props) => {
   console.log(props);
 
   return (
